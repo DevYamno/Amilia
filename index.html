@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amelia Massage & Body Treatment - Layanan pijat panggilan profesional kualitas premium di JABODETABEK. Therapist wanita profesional terlatih, higienis & aman. Booking via WhatsApp cepat & mudah.">
+  <meta name="keywords" content="pijat panggilan, massage panggilan, spa panggilan, amelia massage, pijat panggilan jakarta, pijat panggilan tangerang, pijat panggilan bekasi, pijat tradisional, reflexology, totok wajah, bekam, booking wa">
+  <meta name="author" content="Amelia Massage">
+  <title>Amelia Massage & Body Treatment | Pijat Panggilan Premium JABODETABEK</title>
+  
+  <!-- Google Fonts: Playfair Display & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header id="main-header">
+    <div class="container header-container">
+      <a href="#" class="logo">
+        <span class="logo-accent">A</span>
+        <div class="logo-text">
+          <span class="logo-title">AMELIA</span>
+          <span class="logo-subtitle">Massage & Body Treatment</span>
+        </div>
+      </a>
+      <nav id="navbar">
+        <ul class="nav-links">
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#posters">Poster</a></li>
+          <li><a href="#pricing">Daftar Harga</a></li>
+          <li><a href="#services">Layanan</a></li>
+          <li><a href="#features">Keunggulan</a></li>
+          <li><a href="#booking">Booking</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a href="#booking" class="btn btn-outline">Booking Sekarang</a>
+      </div>
+      <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-bg-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <span class="badge"><i class="fa-solid fa-star gold-text"></i> Therapist Wanita Profesional</span>
+          <h1 class="hero-title">Pijat Panggilan dengan Kualitas <span class="highlight">Premium</span></h1>
+          <p class="hero-subtitle">Membawa kenyamanan spa mewah bintang lima langsung ke tempat tinggal Anda di wilayah JABODETABEK.</p>
+          <div class="hero-actions">
+            <a href="#booking" class="btn btn-primary btn-large"><i class="fa-solid fa-calendar-check"></i> Booking Layanan</a>
+            <a href="#services" class="btn btn-secondary btn-large">Lihat Treatment</a>
+          </div>
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-shield-halved"></i>
+              <span>Higienis & Aman</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-circle-check"></i>
+              <span>100% Profesional</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-heart"></i>
+              <span>Nyaman & Rileks</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <div class="spa-card-preview">
+            <img src="assets/spa_hero.png" alt="Amelia Spa Massage" class="hero-img-main">
+            <div class="floating-tag">
+              <span class="tag-number">12+</span>
+              <span class="tag-text">Pilihan Treatment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Poster Gallery Section -->
+    <section id="posters" class="posters-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tagline">Galeri Layanan</span>
+          <h2>Poster Resmi Kami</h2>
+          <p class="section-desc">Lihat brosur resmi Amelia Massage untuk detail menu dan penawaran terbaik kami.</p>
+        </div>
+        <div class="posters-grid">
+          <!-- Poster 1 (Landscape) -->
+          <div class="poster-card" id="poster1-card">
+            <div class="poster-img-container">
+              <!-- If local files don't exist, they fallback to poster_placeholder.png using CSS background or JS, but let's point to assets directly -->
+              <img src="assets/poster_placeholder.png" onerror="this.src='assets/spa_hero.png';" alt="Poster Amelia Massage Landscape" class="poster-img">
+              <div class="poster-overlay">
+                <button class="btn-zoom" onclick="openLightbox('assets/poster_placeholder.png')">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i> Perbesar Poster
+                </button>
+              </div>
+            </div>
+            <div class="poster-info">
+              <h3>Brosur Amelia Landscape</h3>
+              <p>Informasi area layanan JABODETABEK & menu treatment utama.</p>
+            </div>
+          </div>
+          
+          <!-- Poster 2 (Portrait) -->
+          <div class="poster-card" id="poster2-card">
+            <div class="poster-img-container">
+              <img src="assets/poster_placeholder.png" onerror="this.src='assets/spa_hero.png';" alt="Poster Amelia Massage Portrait" class="poster-img">
+              <div class="poster-overlay">
+                <button class="btn-zoom" onclick="openLightbox('assets/poster_placeholder.png')">
+                  <i class="fa-solid fa-magnifying-glass-plus"></i> Perbesar Poster
+                </button>
+              </div>
+            </div>
+            <div class="poster-info">
+              <h3>Brosur Amelia Portrait</h3>
+              <p>Daftar lengkap 12 treatment spa & pijat panggilan keluarga.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="poster-notice">
+          <p><i class="fa-solid fa-circle-info gold-text"></i> <strong>Catatan:</strong> Anda dapat mengganti poster di atas dengan file poster asli Anda dengan meletakkannya di folder <code>assets/</code>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing / Price List Section -->
+    <section id="pricing" class="pricing-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tagline">Tarif Resmi</span>
+          <h2>Daftar Harga Layanan</h2>
+          <p class="section-desc">Pilihlah perawatan atau paket terbaik sesuai kenyamanan Anda. Reservasi mudah lewat WhatsApp.</p>
+        </div>
+
+        <!-- Tab Buttons -->
+        <div class="pricing-tabs">
+          <button class="pricing-tab-btn active" onclick="switchPricingTab('utama')">Treatment Utama</button>
+          <button class="pricing-tab-btn" onclick="switchPricingTab('ibu-anak')">Ibu & Anak</button>
+          <button class="pricing-tab-btn" onclick="switchPricingTab('terapi')">Terapi & Pengantin</button>
+          <button class="pricing-tab-btn" onclick="switchPricingTab('tambahan')">Terapi Tambahan (Add-on)</button>
+        </div>
+
+        <!-- Tab Content Container -->
+        <div class="pricing-content">
+          
+          <!-- TAB 1: TREATMENT UTAMA -->
+          <div id="pricing-tab-utama" class="pricing-tab-content active">
+            <div class="pricing-grid">
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-spa gold-text"></i> Single Treatment</h3>
+                
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Tradisional</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 195.000</span>
+                  </div>
+                  <p class="price-desc">Pijat tubuh tradisional untuk meringankan kelelahan otot.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Tradisional', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Tradisional</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 210.000</span>
+                  </div>
+                  <p class="price-desc">Pijat tubuh tradisional durasi ekstra untuk relaksasi maksimal.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Tradisional', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Lulur / Scrub</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 195.000</span>
+                  </div>
+                  <p class="price-desc">Mengangkat sel kulit mati, menghaluskan kulit.</p>
+                  <button class="price-book-btn" onclick="selectService('Body Scrub', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Keseleo / Urat</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 235.000</span>
+                  </div>
+                  <p class="price-desc">Terapi khusus untuk otot terkilir atau keseleo ringan.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Keseleo/Urat', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Keseleo / Urat</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 275.000</span>
+                  </div>
+                  <p class="price-desc">Terapi otot terkilir durasi 2 jam untuk pemulihan optimal.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Keseleo/Urat', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Dry Massage (Tanpa Minyak)</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 300.000</span>
+                  </div>
+                  <p class="price-desc">Pijatan di atas pakaian, cocok untuk merelaksasi otot tegang tanpa licin.</p>
+                  <button class="price-book-btn" onclick="selectService('Dry Massage', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Dry Massage (Tanpa Minyak)</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 325.000</span>
+                  </div>
+                  <p class="price-desc">Dry massage durasi 2 jam untuk pelemasan seluruh tubuh.</p>
+                  <button class="price-book-btn" onclick="selectService('Dry Massage', '120 Menit')">Booking</button>
+                </div>
+              </div>
+
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-gift gold-text"></i> Paket Kombinasi & Premium</h3>
+                
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Thai Massage</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 350.000</span>
+                  </div>
+                  <p class="price-desc">Pijat peregangan ala Thailand untuk fleksibilitas tubuh.</p>
+                  <button class="price-book-btn" onclick="selectService('Thai Massage', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Thai Massage</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 400.000</span>
+                  </div>
+                  <p class="price-desc">Terapi peregangan tubuh penuh durasi 2 jam.</p>
+                  <button class="price-book-btn" onclick="selectService('Thai Massage', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Sport Massage</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 350.000</span>
+                  </div>
+                  <p class="price-desc">Tekanan pijat kuat untuk meregangkan otot sehabis berolahraga berat.</p>
+                  <button class="price-book-btn" onclick="selectService('Sport Massage', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Balinese Massage</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 350.000</span>
+                  </div>
+                  <p class="price-desc">Pijatan aromaterapi yang menenangkan dari pulau Dewata.</p>
+                  <button class="price-book-btn" onclick="selectService('Balinese Massage', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Hot Stone Massage</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 400.000</span>
+                  </div>
+                  <p class="price-desc">Menggunakan batu basal hangat untuk melelehkan ketegangan otot dalam.</p>
+                  <button class="price-book-btn" onclick="selectService('Hot Stone Massage', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat & Totok Wajah</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 195.000</span>
+                  </div>
+                  <p class="price-desc">Kombinasi pijat tubuh rileks dengan totok wajah segar.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat & Totok Wajah', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat & Totok Wajah</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 225.000</span>
+                  </div>
+                  <p class="price-desc">Kombinasi pijat tubuh rileks dengan totok wajah segar durasi 2 jam.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat & Totok Wajah', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat & Reflexy</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 235.000</span>
+                  </div>
+                  <p class="price-desc">Pijat badan utuh ditambah refleksi kaki untuk sirkulasi optimal.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat & Reflexy', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-itemHighlight">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Amelia Komplit</span>
+                    <span class="price-badge">180 Min</span>
+                    <span class="price-val">Rp 350.000</span>
+                  </div>
+                  <p class="price-desc">Paket komplit: Pijat 90m + Totok Wajah 30m + Reflexy 30m + Lulur 30m.</p>
+                  <button class="price-book-btn btn-gold" onclick="selectService('Paket Amelia Komplit', '180 Menit')">Pesan Paket</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 2: IBU & ANAK -->
+          <div id="pricing-tab-ibu-anak" class="pricing-tab-content">
+            <div class="pricing-grid">
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-baby gold-text"></i> Layanan Bayi & Anak</h3>
+                
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Bayi</span>
+                    <span class="price-badge">30 Min</span>
+                    <span class="price-val">Rp 135.000</span>
+                  </div>
+                  <p class="price-desc">Sentuhan lembut untuk tidur nyenyak dan kebugaran bayi.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Bayi', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Anak</span>
+                    <span class="price-badge">45 Min</span>
+                    <span class="price-val">Rp 150.000</span>
+                  </div>
+                  <p class="price-desc">Pijatan rileks mengatasi kelelahan beraktivitas pada anak.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Anak', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Bayi / Anak Terkilir</span>
+                    <span class="price-badge">45-60 Min</span>
+                    <span class="price-val">Rp 200.000</span>
+                  </div>
+                  <p class="price-desc">Pijatan urat halus khusus bayi/anak yang keseleo atau salah tidur.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Bayi/Anak Terkilir', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Ibu & Bayi</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 275.000</span>
+                  </div>
+                  <p class="price-desc">Sesi pijat bersama untuk memanjakan Ibu dan menenangkan Bayi.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Ibu & Bayi', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Ibu & Anak</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 300.000</span>
+                  </div>
+                  <p class="price-desc">Sesi relaksasi bersama untuk Ibu dan Anak.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Ibu & Anak', '120 Menit')">Booking</button>
+                </div>
+                
+                <div class="price-itemHighlight">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Keluarga Amelia</span>
+                    <span class="price-badge">Combo</span>
+                    <span class="price-val">Rp 550.000</span>
+                  </div>
+                  <p class="price-desc">Paket Lengkap: Pijat Ayah 2 jam + Pijat Ibu 2 jam + Pijat Anak/Bayi 30 menit.</p>
+                  <button class="price-book-btn btn-gold" onclick="selectService('Paket Keluarga Amelia', '180 Menit')">Pesan Paket</button>
+                </div>
+              </div>
+
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-person-pregnant gold-text"></i> Kehamilan & Pasca Persalinan</h3>
+                
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Ibu Hamil</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 265.000</span>
+                  </div>
+                  <p class="price-desc">Mengurangi ketegangan pinggang dan punggung pada ibu hamil secara aman.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Ibu Hamil', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Ibu Hamil</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 300.000</span>
+                  </div>
+                  <p class="price-desc">Pijat hamil durasi 2 jam untuk meringankan badan pegal menyeluruh.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Ibu Hamil', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Pasca Melahirkan</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 265.000</span>
+                  </div>
+                  <p class="price-desc">Terapi pengencangan perut dan pemulihan tubuh setelah melahirkan.</p>
+                  <button class="price-book-btn" onclick="selectService('Pasca Melahirkan', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Pasca Melahirkan</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 295.000</span>
+                  </div>
+                  <p class="price-desc">Terapi pemulihan pasca melahirkan durasi 2 jam.</p>
+                  <button class="price-book-btn" onclick="selectService('Pasca Melahirkan', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Relaksasi & Laktasi</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 350.000</span>
+                  </div>
+                  <p class="price-desc">Meringankan ketegangan payudara, menstimulasi produksi ASI.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Relaksasi & Laktasi', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat Relaksasi & Laktasi</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 400.000</span>
+                  </div>
+                  <p class="price-desc">Meringankan payudara & relaksasi tubuh penuh durasi 2 jam.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat Relaksasi & Laktasi', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-itemHighlight">
+                  <div class="price-item-header">
+                    <span class="price-name">Premium Pasca Melahirkan</span>
+                    <span class="price-badge">180 Min</span>
+                    <span class="price-val">Rp 600.000</span>
+                  </div>
+                  <p class="price-desc">Paket lengkap: Pijat Pemulihan 2 jam + Totok Wajah 30 menit + Laktasi 30 menit + Ratus/V-Spa 30 menit.</p>
+                  <button class="price-book-btn btn-gold" onclick="selectService('Premium Paket Pasca Melahirkan', '180 Menit')">Pesan Paket</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 3: TERAPI & PENGANTIN -->
+          <div id="pricing-tab-terapi" class="pricing-tab-content">
+            <div class="pricing-grid">
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-heart gold-text"></i> Paket Pengantin Amelia</h3>
+                
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Pengantin Amelia</span>
+                    <span class="price-badge">150 Min</span>
+                    <span class="price-val">Rp 375.000</span>
+                  </div>
+                  <p class="price-desc">Relaksasi Pengantin: Pijat Tradisional + Totok Aura + Lulur Pengantin.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Pengantin Amelia', '150 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Pengantin Amelia Extra</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 475.000</span>
+                  </div>
+                  <p class="price-desc">Pemulihan Aura & V: Pijat Pengantin + Totok Aura + Totok Vagina.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Pengantin Amelia Extra', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Pengantin Amelia Super</span>
+                    <span class="price-badge">180 Min</span>
+                    <span class="price-val">Rp 550.000</span>
+                  </div>
+                  <p class="price-desc">Kombinasi Super: Pijat + Totok Vagina + Lulur Pengantin + Totok Aura.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Pengantin Amelia Super', '180 Menit')">Booking</button>
+                </div>
+
+                <div class="price-itemHighlight">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Pengantin Amelia VIP</span>
+                    <span class="price-badge">180 Min</span>
+                    <span class="price-val">Rp 600.000</span>
+                  </div>
+                  <p class="price-desc">Kemewahan Maksimal: Pijat + Totok Vagina + Lulur Pengantin + Ratus Spa.</p>
+                  <button class="price-book-btn btn-gold" onclick="selectService('Paket Pengantin Amelia VIP', '180 Menit')">Pesan Paket</button>
+                </div>
+              </div>
+
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-stethoscope gold-text"></i> Paket Terapi Kesehatan</h3>
+                
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Masuk Angin</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 195.000</span>
+                  </div>
+                  <p class="price-desc">Pijat Tradisional yang dikombinasikan dengan kerokan hangat di punggung.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Masuk Angin', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Masuk Angin</span>
+                    <span class="price-badge">120 Min</span>
+                    <span class="price-val">Rp 210.000</span>
+                  </div>
+                  <p class="price-desc">Pijat Tradisional + Kerokan dengan durasi 2 jam untuk meringankan masuk angin berat.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Masuk Angin', '120 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Paket Masuk Angin Anak</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 215.000</span>
+                  </div>
+                  <p class="price-desc">Pijatan lembut dan olesan boreh hangat (rempah tradisional) untuk anak usia &lt; 10 thn.</p>
+                  <button class="price-book-btn" onclick="selectService('Paket Masuk Angin Anak', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat & Terapi Bekam</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 265.000</span>
+                  </div>
+                  <p class="price-desc">Pijatan kebugaran dibarengi dengan terapi bekam steril untuk membuang toksin.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat & Terapi Bekam', '90 Menit')">Booking</button>
+                </div>
+
+                <div class="price-item">
+                  <div class="price-item-header">
+                    <span class="price-name">Pijat & Terapi Bioelektrik</span>
+                    <span class="price-badge">90 Min</span>
+                    <span class="price-val">Rp 300.000</span>
+                  </div>
+                  <p class="price-desc">Pijat pijatan menggunakan aliran bio-listrik untuk merangsang sel-sel saraf tersumbat.</p>
+                  <button class="price-book-btn" onclick="selectService('Pijat & Terapi Bioelektrik', '90 Menit')">Booking</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAB 4: ADDITIONAL -->
+          <div id="pricing-tab-tambahan" class="pricing-tab-content">
+            <div class="pricing-grid">
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-clock gold-text"></i> Express Add-ons (Tambahan)</h3>
+                
+                <div class="price-row-item">
+                  <span class="add-name">Pijat Tambahan (Ekstensi) <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 60.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Kerokan <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 70.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Totok Wajah <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 85.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Pijat Keseleo / Terkilir <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 90.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Pijat Refleksi Kaki <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 90.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Lulur Scrub <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 95.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Lulur Pengantin <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 100.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Pijat Peranakan <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 100.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Lulur Rempah <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 100.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Pijat Bumil <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 100.000</span>
+                </div>
+                
+                <div class="price-row-item">
+                  <span class="add-name">Creambath Rambut <span class="add-duration">45 Menit</span></span>
+                  <span class="add-price">Rp 125.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Layanan Laktasi <span class="add-duration">30 Menit</span></span>
+                  <span class="add-price">Rp 150.000</span>
+                </div>
+              </div>
+
+              <div class="pricing-col">
+                <h3 class="pricing-col-title"><i class="fa-solid fa-kit-medical gold-text"></i> Terapi Tambahan Premium</h3>
+                
+                <div class="price-row-item">
+                  <span class="add-name">Terapi Moksa / Lampu Infrared</span>
+                  <span class="add-price">Rp 150.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Kop Kering Terapi</span>
+                  <span class="add-price">Rp 150.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Olesan Rempah Boreh Hangat</span>
+                  <span class="add-price">Rp 150.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Terapi Bio-Elektrik</span>
+                  <span class="add-price">Rp 185.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Terapi Bekam</span>
+                  <span class="add-price">Rp 185.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Totok Aura Amelia <span class="add-duration">50 Menit</span></span>
+                  <span class="add-price">Rp 185.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Totok Punggung Sehat <span class="add-duration">60 Menit</span></span>
+                  <span class="add-price">Rp 200.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Totok Payudara & Masker <span class="add-duration">45 Menit</span></span>
+                  <span class="add-price">Rp 250.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Totok Organ Vagina</span>
+                  <span class="add-price">Rp 250.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Ratus V-Spa Wangi</span>
+                  <span class="add-price">Rp 250.000</span>
+                </div>
+
+                <div class="price-row-item">
+                  <span class="add-name">Terapi Sauna Portabel</span>
+                  <span class="add-price">Rp 300.000</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="pricing-tambahan-notice">
+              <p><i class="fa-solid fa-asterisk gold-text"></i> Layanan tambahan (Add-on) hanya dapat dipesan sebagai pelengkap/tambahan dari single treatment utama (minimal durasi 90 menit) demi efisiensi transport therapist kami.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services / Treatment Catalog Section -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tagline">Pilihan Layanan</span>
+          <h2>Daftar Treatment Amelia</h2>
+          <p class="section-desc">Kami menghadirkan berbagai jenis perawatan tubuh terbaik yang ditangani langsung oleh therapist wanita profesional.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card" onclick="selectService('Pijat Tradisional')">
+            <div class="service-icon"><i class="fa-solid fa-spa"></i></div>
+            <h3>Pijat Tradisional</h3>
+            <p>Pijatan klasik dengan tekanan disesuaikan untuk meredakan pegal, melancarkan peredaran darah, dan mengatasi kelelahan otot.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card" onclick="selectService('Reflexology')">
+            <div class="service-icon"><i class="fa-solid fa-shoe-prints"></i></div>
+            <h3>Reflexology</h3>
+            <p>Terapi pijat refleksi pada titik-titik saraf telapak kaki dan tangan untuk memulihkan energi tubuh secara menyeluruh.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card" onclick="selectService('Totok Wajah')">
+            <div class="service-icon"><i class="fa-solid fa-face-smile"></i></div>
+            <h3>Totok Wajah</h3>
+            <p>Akupresur khusus pada wajah untuk melancarkan sirkulasi darah, meremajakan sel kulit, dan membuat wajah tampak segar alami.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="service-card" onclick="selectService('Body Scrub')">
+            <div class="service-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+            <h3>Body Scrub / Lulur</h3>
+            <p>Perawatan lulur tubuh dengan scrub pilihan untuk mengangkat sel kulit mati, menghaluskan, dan mencerahkan kulit Anda.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="service-card" onclick="selectService('Kerokan')">
+            <div class="service-icon"><i class="fa-solid fa-indent"></i></div>
+            <h3>Kerokan</h3>
+            <p>Terapi tradisional menggunakan koin dan minyak hangat untuk meringankan gejala masuk angin dan menghangatkan tubuh.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="service-card" onclick="selectService('Pijat Ibu Hamil')">
+            <div class="service-icon"><i class="fa-solid fa-person-pregnant"></i></div>
+            <h3>Pijat Ibu Hamil</h3>
+            <p>Pijatan lembut dan aman yang disesuaikan khusus untuk meredakan ketegangan punggung dan kaki bengkak pada ibu hamil.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="service-card" onclick="selectService('Pasca Melahirkan')">
+            <div class="service-icon"><i class="fa-solid fa-baby-carriage"></i></div>
+            <h3>Pasca Melahirkan</h3>
+            <p>Terapi pemulihan khusus pasca persalinan untuk mengembalikan posisi rahim, mengencangkan perut, dan melancarkan ASI.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="service-card" onclick="selectService('Pijat Bayi')">
+            <div class="service-icon"><i class="fa-solid fa-baby"></i></div>
+            <h3>Pijat Bayi</h3>
+            <p>Sentuhan lembut untuk merangsang motorik bayi, meningkatkan nafsu makan, dan membantu bayi tidur lebih nyenyak.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="service-card" onclick="selectService('Pijat Anak')">
+            <div class="service-icon"><i class="fa-solid fa-children"></i></div>
+            <h3>Pijat Anak</h3>
+            <p>Pijatan rileks untuk anak-anak guna meredakan kelelahan setelah beraktivitas atau sekolah dan mendukung tumbuh kembang.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="service-card" onclick="selectService('Sport Massage')">
+            <div class="service-icon"><i class="fa-solid fa-person-running"></i></div>
+            <h3>Sport Massage</h3>
+            <p>Pijatan dengan tekanan kuat untuk melemaskan otot kaku sehabis olahraga, mencegah cedera, dan mempercepat pemulihan.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 11 -->
+          <div class="service-card" onclick="selectService('Kop Kering')">
+            <div class="service-icon"><i class="fa-solid fa-circle-dot"></i></div>
+            <h3>Kop Kering</h3>
+            <p>Terapi vakum kulit untuk melancarkan aliran energi, membuang angin berlebih di punggung, dan meregangkan otot tegang.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+
+          <!-- Card 12 -->
+          <div class="service-card" onclick="selectService('Bekam')">
+            <div class="service-icon"><i class="fa-solid fa-virus-slash"></i></div>
+            <h3>Bekam</h3>
+            <p>Terapi pengeluaran darah kotor secara steril untuk detoksifikasi tubuh, mengurangi nyeri sendi, dan menjaga kebugaran alami.</p>
+            <span class="select-hint">Pilih Layanan <i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us / Keunggulan Section -->
+    <section id="features" class="features-section">
+      <div class="features-bg-overlay"></div>
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tagline tagline-light">Mengapa Memilih Kami?</span>
+          <h2 class="light-text">Keunggulan Amelia Massage</h2>
+          <p class="section-desc desc-light">Kami mengedepankan kualitas pelayanan dan kenyamanan maksimal bagi setiap pelanggan.</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-id-card"></i>
+            </div>
+            <h3>100% Therapist Profesional</h3>
+            <p>Semua therapist kami adalah wanita profesional yang terdidik, sopan, berpengalaman, dan bersertifikasi di bidang spa & massage.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-soap"></i>
+            </div>
+            <h3>Higienis & Aman</h3>
+            <p>Minyak massage premium pilihan, handuk bersih sekali pakai, serta peralatan bekam/bekas steril dengan protokol kebersihan ketat.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <h3>Privasi Terjamin</h3>
+            <p>Nikmati layanan spa eksklusif di kenyamanan kamar rumah, apartemen, atau kamar hotel Anda tanpa khawatir privasi terganggu.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon-box">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <h3>Kualitas Bintang Lima</h3>
+            <p>Menghadirkan pelayanan spa mewah berkualitas hotel bintang lima dengan tarif terjangkau langsung ke tempat Anda.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Booking Form Section -->
+    <section id="booking" class="booking-section">
+      <div class="container">
+        <div class="booking-wrapper">
+          <div class="booking-info-panel">
+            <span class="section-tagline">Reservasi Mudah</span>
+            <h2>Booking Pijat Panggilan Sekarang</h2>
+            <p>Isi formulir reservasi untuk memilih jenis treatment dan mengatur waktu kedatangan therapist wanita kami. Setelah formulir dikirim, Anda akan langsung diarahkan ke WhatsApp kami untuk konfirmasi akhir.</p>
+            
+            <div class="booking-contact-list">
+              <div class="contact-card">
+                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <h4>Area Layanan</h4>
+                  <p>Seluruh Wilayah JABODETABEK (Jakarta, Bogor, Depok, Tangerang, Bekasi)</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="contact-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                <div>
+                  <h4>Hubungi WhatsApp</h4>
+                  <p>0856-9291-2007 (Chat 24/7)</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                <div>
+                  <h4>Jam Operasional</h4>
+                  <p>Pukul 08:00 - 22:00 WIB (Sesuai Reservasi)</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="booking-notice-card">
+              <p><i class="fa-solid fa-shield-heart gold-text"></i> Kami menjamin kebersihan alat, keaslian therapist, serta kenyamanan luar biasa pada setiap kunjungan.</p>
+            </div>
+          </div>
+
+          <div class="booking-form-panel">
+            <h3>Formulir Reservasi</h3>
+            <p class="form-desc">Silakan lengkapi detail data di bawah ini:</p>
+            
+            <form id="whatsapp-booking-form">
+              <div class="form-group">
+                <label for="booking-name"><i class="fa-solid fa-user"></i> Nama Lengkap</label>
+                <input type="text" id="booking-name" placeholder="Contoh: Budi Santoso" required>
+              </div>
+
+              <div class="form-group">
+                <label for="booking-phone"><i class="fa-solid fa-phone"></i> Nomor WhatsApp</label>
+                <input type="tel" id="booking-phone" placeholder="Contoh: 08123456789" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="booking-area"><i class="fa-solid fa-map-location-dot"></i> Kota/Area</label>
+                  <select id="booking-area" required>
+                    <option value="" disabled selected>Pilih Kota</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Bogor">Bogor</option>
+                    <option value="Depok">Depok</option>
+                    <option value="Tangerang">Tangerang</option>
+                    <option value="Bekasi">Bekasi</option>
+                  </select>
+                </div>
+                
+                <div class="form-group col-6">
+                  <label for="booking-treatment"><i class="fa-solid fa-spa"></i> Jenis Treatment</label>
+                  <select id="booking-treatment" required>
+                    <option value="" disabled selected>Pilih Layanan</option>
+                    <optgroup label="Single Treatment">
+                      <option value="Pijat Tradisional">Pijat Tradisional</option>
+                      <option value="Reflexology">Reflexology</option>
+                      <option value="Totok Wajah">Totok Wajah</option>
+                      <option value="Body Scrub">Body Scrub / Lulur</option>
+                      <option value="Pijat Keseleo/Urat">Pijat Keseleo / Urat</option>
+                      <option value="Dry Massage">Dry Massage (Tanpa Minyak)</option>
+                      <option value="Thai Massage">Thai Massage</option>
+                      <option value="Sport Massage">Sport Massage</option>
+                      <option value="Balinese Massage">Balinese Massage</option>
+                      <option value="Hot Stone Massage">Hot Stone Massage</option>
+                    </optgroup>
+                    <optgroup label="Kombinasi & Paket Utama">
+                      <option value="Pijat & Totok Wajah">Pijat & Totok Wajah</option>
+                      <option value="Pijat & Reflexy">Pijat & Reflexy</option>
+                      <option value="Pijat & Lulur Rempah">Pijat & Lulur Rempah</option>
+                      <option value="Pijat & Lulur Amelia">Pijat & Lulur Amelia</option>
+                      <option value="Paket Amelia Komplit">Paket Amelia Komplit (180m)</option>
+                    </optgroup>
+                    <optgroup label="Ibu & Anak / Bumil">
+                      <option value="Pijat Ibu Hamil">Pijat Ibu Hamil</option>
+                      <option value="Pasca Melahirkan">Pijat Pasca Melahirkan</option>
+                      <option value="Pijat Bayi">Pijat Bayi</option>
+                      <option value="Pijat Anak">Pijat Anak</option>
+                      <option value="Pijat Bayi/Anak Terkilir">Pijat Bayi / Anak Terkilir</option>
+                      <option value="Paket Ibu & Bayi">Paket Pijat Ibu & Bayi</option>
+                      <option value="Paket Ibu & Anak">Paket Pijat Ibu & Anak</option>
+                      <option value="Paket Keluarga Amelia">Paket Keluarga Amelia</option>
+                      <option value="Pijat Relaksasi & Laktasi">Pijat Relaksasi & Laktasi</option>
+                      <option value="Premium Paket Pasca Melahirkan">Premium Pasca Melahirkan</option>
+                      <option value="Paket Bumil Amelia">Paket Bumil Amelia (Combo)</option>
+                    </optgroup>
+                    <optgroup label="Paket Terapi & Pengantin">
+                      <option value="Paket Pengantin Amelia">Paket Pengantin Amelia</option>
+                      <option value="Paket Pengantin Amelia Extra">Paket Pengantin Extra</option>
+                      <option value="Paket Pengantin Amelia Super">Paket Pengantin Super</option>
+                      <option value="Paket Pengantin Amelia VIP">Paket Pengantin VIP</option>
+                      <option value="Paket Masuk Angin">Paket Masuk Angin (Pijat + Kerokan)</option>
+                      <option value="Paket Masuk Angin Anak">Paket Masuk Angin Anak</option>
+                      <option value="Pijat & Terapi Bekam">Pijat & Terapi Bekam</option>
+                      <option value="Pijat & Terapi Bioelektrik">Pijat & Terapi Bioelektrik</option>
+                    </optgroup>
+                    <optgroup label="Terapi Tambahan / Lainnya">
+                      <option value="Kerokan">Kerokan (Add-on)</option>
+                      <option value="Bekam">Bekam (Add-on)</option>
+                      <option value="Kop Kering">Kop Kering (Add-on)</option>
+                      <option value="Lainnya / Tambahan Lain">Layanan Lain (Tulis di Catatan)</option>
+                    </optgroup>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-6">
+                  <label for="booking-date"><i class="fa-solid fa-calendar-days"></i> Tanggal Layanan</label>
+                  <input type="date" id="booking-date" required>
+                </div>
+                
+                <div class="form-group col-6">
+                  <label for="booking-time"><i class="fa-solid fa-clock"></i> Jam Mulai</label>
+                  <input type="time" id="booking-time" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="booking-duration"><i class="fa-solid fa-hourglass-half"></i> Durasi Pijat</label>
+                <select id="booking-duration" required>
+                  <option value="90 Menit" selected>90 Menit (Direkomendasikan)</option>
+                  <option value="120 Menit">120 Menit (2 Jam)</option>
+                  <option value="150 Menit">150 Menit (2.5 Jam)</option>
+                  <option value="180 Menit">180 Menit (3 Jam)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="booking-address"><i class="fa-solid fa-house-chimney"></i> Alamat Lengkap Penjemputan</label>
+                <textarea id="booking-address" rows="3" placeholder="Contoh: Jl. Sudirman No. 12, Apartemen Emerald Tower A, Lantai 10 No. 12B, Jakarta Selatan" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-submit">
+                <i class="fa-brands fa-whatsapp"></i> Booking Sekarang via WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tagline">Pertanyaan Umum</span>
+          <h2>Pertanyaan yang Sering Diajukan</h2>
+          <p class="section-desc">Berikut adalah beberapa informasi penting yang sering ditanyakan oleh pelanggan kami.</p>
+        </div>
+
+        <div class="faq-accordion">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Apakah therapistnya semuanya wanita?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Ya, benar. Amelia Massage khusus menyediakan therapist wanita profesional dan terlatih demi kenyamanan dan keamanan privasi Anda selama treatment berlangsung.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Berapa tarif transport untuk pijat panggilan ini?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Tarif kami sangat transparan. Konfirmasi biaya total termasuk biaya transport therapist akan diinfokan terlebih dahulu oleh tim admin kami lewat WhatsApp sebelum therapist berangkat.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Kapan saya harus memesan layanan?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Kami menyarankan untuk melakukan reservasi minimal 1 hingga 2 jam sebelum waktu yang diinginkan agar kami dapat menyiapkan jadwal therapist terbaik untuk Anda.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>Apakah perlengkapan pijat disiapkan oleh pelanggan?</span>
+              <i class="fa-solid fa-chevron-down"></i>
+            </button>
+            <div class="faq-answer">
+              <p>Tidak perlu. Therapist kami akan membawa seluruh peralatan yang dibutuhkan seperti matras/alas pijat, minyak pijat aromaterapi, handuk bersih sekali pakai, serta alat bekam steril. Anda cukup rileks dan menikmati perawatan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="main-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-accent">A</span>
+          <div class="logo-text">
+            <span class="logo-title light-text">AMELIA</span>
+            <span class="logo-subtitle">Massage & Body Treatment</span>
+          </div>
+        </a>
+        <p class="footer-desc">Layanan pijat panggilan spa & massage dengan therapist wanita profesional di JABODETABEK. Hadir di rumah, hotel, maupun apartemen Anda.</p>
+        <div class="footer-socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-links">
+        <h3>Navigasi</h3>
+        <ul>
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#posters">Poster Resmi</a></li>
+          <li><a href="#pricing">Daftar Harga</a></li>
+          <li><a href="#services">Daftar Layanan</a></li>
+          <li><a href="#features">Keunggulan</a></li>
+          <li><a href="#booking">Booking WhatsApp</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3>Kontak Kami</h3>
+        <p><i class="fa-solid fa-phone gold-text"></i> Telp/WA: 0856-9291-2007</p>
+        <p><i class="fa-solid fa-location-dot gold-text"></i> Area: JABODETABEK (Jakarta, Bogor, Depok, Tangerang, Bekasi)</p>
+        <p><i class="fa-solid fa-clock gold-text"></i> Layanan Reservasi: 24 Jam</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container footer-bottom-container">
+        <p>&copy; 2026 Amelia Massage & Body Treatment. All Rights Reserved.</p>
+        <p class="developer-text">Sentuhan Profesional Untuk Relaksasi Maksimal</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Poster Zoom -->
+  <div id="poster-lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" alt="Zoomed Poster">
+    <div id="lightbox-caption"></div>
+  </div>
+
+  <!-- Floating WhatsApp Widget -->
+  <a href="https://wa.me/6285692912007?text=Halo%20Amelia%20Massage%2C%20saya%20ingin%20tanya-tanya%20mengenai%20layanan%20pijat." target="_blank" rel="noopener noreferrer" class="whatsapp-floating" aria-label="Hubungi WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="tooltip-text">Chat WhatsApp Kami</span>
+  </a>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
